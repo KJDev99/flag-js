@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  box-shadow: 0px 0px 5px 0px #0000005d;
+  height: 80px;
+}
+
+.container {
+  width: 1230px;
+  margin: auto;
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.header_content h1 {
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32.74px;
+  text-align: left;
+}
+
+.dark_mode {
+  display: flex;
+}
+
+.dark_mode p {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.82px;
+  text-align: left;
+  letter-spacing: 0px;
+  margin-left: 8px;
+  margin-top: 4px;
+}
+
+.sec_one-content {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  height: 56px;
+  width: 488px;
+  box-shadow: 0px 0px 5px 0px #0000005d;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.search img {
+  margin-left: 32px;
+  margin-right: 24px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #848484;
+}
+
+.filter {
+  width: 200px;
+  height: 56px;
+  box-shadow: 0px 0px 5px 0px #0000005d;
+  border: none;
+  outline: none;
+  padding-left: 24px;
+  border-right: 24px solid white;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #111517;
+  border-radius: 5px;
+}
+
+.filter option {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.sec_two-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.country {
+  width: 264px;
+  box-shadow: 0px 0px 5px 0px #0000005d;
+  border-radius: 5px;
+  margin-bottom: 75px;
+}
+
+.country img {
+  width: 100%;
+}
+
+.info {
+  padding: 24px;
+}
+
+.info h3 {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.info p {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.info p span {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+}
+.d-none{
+  display: block;
+}
